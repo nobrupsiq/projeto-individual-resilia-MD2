@@ -20,7 +20,7 @@
 
 <br>
 
-## Tecnologias utilizadas 🔧
+## Tecnologias utilizadas 🛠
 
 -   HTML
 -   CSS
