@@ -16,3 +16,10 @@ const msga = document.querySelector('[data-msg-a]');
 const msgb = document.querySelector('[data-msg-b]');
 const btn = document.querySelector('button');
 const select = document.querySelector('#select');
+
+// LOGICA DE SALTOS CIFRA DE CESAR
+
+let encodeCifra = () => (msgb.value = cifraCesar(msga.value, parseInt(inp_saltos.value)));
+let decodeCifra = () => (msgb.value = cifraCesar(msga.value, parseInt(inp_saltos.value) * -1));
+let encodeBase64 = () => (msgb.value = btoa(msga.value));
+let decodeBase64 = () => (msgb.value = atob(msga.value));
