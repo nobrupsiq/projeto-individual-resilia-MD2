@@ -21,5 +21,5 @@ const select = document.querySelector('#select');
 
 let encodeCifra = () => (msgb.value = cifraCesar(msga.value, parseInt(inp_saltos.value)));
 let decodeCifra = () => (msgb.value = cifraCesar(msga.value, parseInt(inp_saltos.value) * -1));
-let encodeBase64 = () => (msgb.value = btoa(msga.value));
-let decodeBase64 = () => (msgb.value = atob(msga.value));
+let encodeBase64 = () => (msgb.value = btoa(msga.value)); //btoa() funcao para codificar em base64
+let decodeBase64 = () => (msgb.value = atob(msga.value)); //atob() funcao para decodificar base64
