@@ -16,7 +16,7 @@
 
 ![preview](./.github/preview.png)
 
-[🔗 CLIQUE AQUI PARA ACESSAR]()
+[🔗 CLIQUE AQUI PARA ACESSAR](https://nobrupsiq.github.io/projeto-individual-resilia-MD2/)
 
 <br>
 
@@ -28,7 +28,7 @@
 
 <br>
 
-## Função utilizada 🧠
+## Funções utilizadas 🧠
 
 -   `btoa()` Função nativa para codificar base64
 -   `atob()` Função nativa para decodificar base64
